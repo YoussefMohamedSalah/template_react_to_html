@@ -2,26 +2,28 @@ import React from "react";
 import { Box, Grid, Stack, Typography } from "@mui/material";
 import Iframe from "react-iframe";
 
-const SachiConfirmationHel = () => {
+const KazoukoConfirmation = () => {
   const styles = {
     paperContainer: {
       height: "100%",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right",
-      backgroundImage: `url(${"https://i.ibb.co/f2ZFrg8/Background.png"})`
+      backgroundImage: `url(${"https://i.ibb.co/3FrHXVv/kazoku-confirmation-cropped.jpg"})`
     }
   };
 
-  let customerName = "Youssef",
+  let customerName = "Youssef Salah",
     numberOfGuests = 6,
-    reservationTime = "7:00 pm on Friday, 3 January 2020";
+    // reservationTime = "Sunday, 26th January - 4:00PM - 6:00PM",
+    date = "Thursday, 06 May 2021",
+    time = "7:00 PM - 12:00 AM";
 
   return (
     <Stack
       style={styles.paperContainer}
       sx={{
-        color: "white",
+        color: "black",
         minHeight: "100vh",
         height: "100%",
         padding: {
@@ -39,7 +41,7 @@ const SachiConfirmationHel = () => {
         alignItems="center"
         sx={{
           paddingTop: {
-            xs: "3.4rem",
+            xs: "3rem",
             sm: "5.5rem",
             md: "3.5rem",
             lg: "6rem",
@@ -50,15 +52,15 @@ const SachiConfirmationHel = () => {
         {/* logo image */}
         <Box
           component="img"
-          src="https://i.ibb.co/9wRtRpz/Sachi-Heliopolis-Reservations-01.png"
-          alt="logo_sachi"
+          src="https://i.ibb.co/Q64sWSQ/Transparent-Kazoku.png"
+          alt="logo_kazouko"
           sx={{
             width: {
               xs: "55%",
               sm: "50%",
               md: "45%",
-              lg: "40%",
-              xl: "35%"
+              lg: "20%",
+              xl: "20%"
             }
           }}
         />
@@ -68,6 +70,10 @@ const SachiConfirmationHel = () => {
 
       <Box
         sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
           alignSelf: "center",
           paddingTop: {
             xs: "3rem",
@@ -81,12 +87,14 @@ const SachiConfirmationHel = () => {
             sm: "98%",
             md: "94%",
             lg: "92%",
-            xl: "90%"
+            xl: "85%"
           }
         }}
       >
         <Typography
           sx={{
+            textAlign: "center",
+            alignSelf: "center",
             lineHeight: {
               sx: "1.3",
               sm: "1.5",
@@ -110,11 +118,13 @@ const SachiConfirmationHel = () => {
             }
           }}
         >
-          Dear {customerName},
+          {customerName},
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
           sx={{
+            textAlign: "center",
+            alignSelf: "center",
             lineHeight: {
               sx: "1.3",
               sm: "1.5",
@@ -139,11 +149,13 @@ const SachiConfirmationHel = () => {
           }}
         >
           {" "}
-          Thank you for reservation at Sachi Heliopolis.
+          Thank you for choosing KAZOKU
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
           sx={{
+            textAlign: "center",
+            alignSelf: "center",
             lineHeight: {
               sx: "1.3",
               sm: "1.5",
@@ -167,12 +179,14 @@ const SachiConfirmationHel = () => {
             }
           }}
         >
-          This message is to re-confirm your reservation for {numberOfGuests} at{" "}
-          {reservationTime}.
+          Kindly re-confirm your reservation for {numberOfGuests} guests at{" "}
+          {time} on {date}.
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
           sx={{
+            textAlign: "center",
+            alignSelf: "center",
             lineHeight: {
               sx: "1.3",
               sm: "1.5",
@@ -196,25 +210,27 @@ const SachiConfirmationHel = () => {
             }
           }}
         >
-          If you wish to make any special requests or changes to your
-          reservation, please contact us on{" "}
+          For any special requests or changes to your booking please contact us
+          on{" "}
           <a
             style={{ color: "#4f5cd6", textDecoration: "underline" }}
-            href="tel:0128 090 2028"
+            href="tel:0127 000 4877"
           >
-            0128 090 2028
+            0127 000 4877
           </a>{" "}
           or via email at{" "}
           <a
             style={{ color: "#4f5cd6", textDecoration: "underline" }}
-            href="mailto:reservations@sachirestaurant.com"
+            href="mailto:reservations@kazokuegypt.com"
           >
-            reservations@sachirestaurant.com
+            reservations@kazokuegypt.com
           </a>
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
           sx={{
+            textAlign: "center",
+            alignSelf: "center",
             lineHeight: {
               sx: "1.3",
               sm: "1.5",
@@ -238,11 +254,13 @@ const SachiConfirmationHel = () => {
             }
           }}
         >
-          We look forward to hosting you.
+          We look forward to having you.
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
           sx={{
+            textAlign: "center",
+            alignSelf: "center",
             lineHeight: {
               sx: "1.3",
               sm: "1.5",
@@ -266,19 +284,15 @@ const SachiConfirmationHel = () => {
             }
           }}
         >
-          Best wishes,
+          Arigato,
           <br />
-          The Sachi team.
+          The KAZOKU team.{" "}
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
       </Box>
 
       {/* Re-confirm button */}
-      <a
-        href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="#" target="_blank" rel="noreferrer">
         <Stack
           justifyContent="center"
           alignItems="center"
@@ -290,19 +304,21 @@ const SachiConfirmationHel = () => {
             alt="reconfirm_btn"
             sx={{
               alignSelf: "center",
+              backgroundColor: "black",
+              borderRadius: "14px",
               width: {
                 xs: "9rem",
                 sm: "9rem",
                 md: "11rem",
                 lg: "12rem",
-                xl: "13rem"
+                xl: "12rem"
               },
-              paddingTop: {
+              marginTop: {
                 xs: "2rem",
                 sm: "2.5rem",
                 md: "3rem",
                 lg: "3rem",
-                xl: "3.1rem"
+                xl: "3.2rem"
               }
             }}
           />
@@ -328,7 +344,7 @@ const SachiConfirmationHel = () => {
             xs={12}
             md={3}
             lg={3}
-            xl={3}
+            xl={4}
             sx={{
               padding: {
                 xs: "0rem 0rem 1rem 0rem",
@@ -347,18 +363,15 @@ const SachiConfirmationHel = () => {
                   md: "2rem",
                   lg: "2rem",
                   xl: "1.3rem"
-                }
+                },
+                fontWeight: "bold"
               }}
             >
               Find us here
             </Typography>
             {/* Social Media Links */}
             <Box sx={{ padding: "1rem 0.7rem" }}>
-              <a
-                href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 <img
                   style={{
                     width: "35px",
@@ -386,7 +399,7 @@ const SachiConfirmationHel = () => {
                   alt="instagram"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.tripadvisor.com/RSManagementCenter-d9729486-Kazoku">
                 <img
                   style={{
                     width: "35px",
@@ -412,13 +425,12 @@ const SachiConfirmationHel = () => {
                 }
               }}
             >
-              3, Cleopatra St, El Korba, El-Montaza, Heliopolis, Cairo
-              Governorate
+              Swanlake Compound, 1st Settlement, New Cairo, Cairo Governorate
             </Typography>
             <Box
               component="a"
               target="_blank"
-              href="https://goo.gl/maps/gPe5c65GFtuXwY1V8"
+              href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x14583d56794c16db:0xf741edf9e8b2b703?source=g.page.share"
               sx={{
                 color: "#4f5cd6",
                 textDecoration: "underline"
@@ -428,9 +440,9 @@ const SachiConfirmationHel = () => {
             </Box>
           </Grid>
           {/* ------#######--------######--------#######------######------ */}
-          <Grid item xs={12} md={9} lg={9} xl={9}>
+          <Grid item xs={12} md={9} lg={9} xl={8}>
             <Iframe
-              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.218974658328!2d31.32246836546453!3d30.087914423471855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e26a870f6b7%3A0xf0688ccb9bacc1ad!2sSACHI%20Heliopolis!5e0!3m2!1sen!2seg!4v1672714341838!5m2!1sen!2seg"
+              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.151059422861!2d31.437028200000004!3d30.0612042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583d56794c16db%3A0xf741edf9e8b2b703!2sKazoku!5e0!3m2!1sen!2seg!4v1672713882563!5m2!1sen!2seg"
               width="100%"
               height="350px"
               id=""
@@ -467,13 +479,13 @@ const SachiConfirmationHel = () => {
           target="_blank"
           rel="noreferrer"
           style={{ color: "#4f5cd6", textDecoration: "underline" }}
-          href="https://www.sachirestaurant.com/"
+          href="https://www.kazokuegypt.com/"
         >
-          sachirestaurant.com
+          kazokuegypt.com
         </a>
       </Typography>
     </Stack>
   );
 };
 
-export default SachiConfirmationHel;
+export default KazoukoConfirmation;

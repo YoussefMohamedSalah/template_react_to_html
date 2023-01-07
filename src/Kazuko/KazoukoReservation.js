@@ -1,14 +1,14 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
-const ShinkoReservation = () => {
+const KazoukoReservation = () => {
   const styles = {
     paperContainer: {
       height: "100%",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right",
-      backgroundImage: `url(${"https://i.ibb.co/p3BPr61/SHINKO-RESERVATION-LETTER-03-min.jpg"})`
+      backgroundImage: `url(${"https://i.ibb.co/3FrHXVv/kazoku-confirmation-cropped.jpg"})`
     }
   };
 
@@ -22,7 +22,7 @@ const ShinkoReservation = () => {
     <Stack
       style={styles.paperContainer}
       sx={{
-        color: "white",
+        color: "black",
         minHeight: "100vh",
         height: "100%",
         padding: {
@@ -51,7 +51,7 @@ const ShinkoReservation = () => {
         {/* Banner image */}
         <Box
           component="img"
-          src="https://i.ibb.co/vvdTKKM/IMG-9384-min.jpg"
+          src="https://i.ibb.co/Kh4Lb9g/Kazoku-Dining-Area.jpg"
           alt="Shinko_Dining_Area"
           sx={{
             width: "85%",
@@ -133,7 +133,7 @@ const ShinkoReservation = () => {
                   }
                 }}
               >
-                Reservation under:
+                Reservation Name:
               </Typography>
             </Box>
             <Box flex={8}>
@@ -442,7 +442,7 @@ const ShinkoReservation = () => {
                 <br />
                 <Box
                   component="a"
-                  href="https://www.google.com/maps/place/SHINK%C5%8C+Cairo/@30.0620393,31.4378461,17z/data=!3m1!4b1!4m5!3m4!1s0x14583d57ab387fc7:0xf209f87d4dabcd7f!8m2!3d30.0620393!4d31.4378461"
+                  href="https://goo.gl/maps/zGUKKhEXmitpMg9N9"
                   sx={{
                     color: "#4f5cd6",
                     textDecoration: "underline",
@@ -558,7 +558,7 @@ const ShinkoReservation = () => {
             }}
           >
             {" "}
-            • Age restriction: 23+
+            • Age restriction: 21+ after 6 PM
           </Typography>
           {/* ---------------------------------------------------------------------------------------------------------------------- */}
           <Typography
@@ -587,8 +587,8 @@ const ShinkoReservation = () => {
             }}
           >
             {" "}
-            • Dress Code: Smart Casual (Shorts or flip-flops; uniforms or
-            athletic sportswear will not be admitted).
+            • Dress Code: Smart Casual (Shorts or flip-flops; uniforms
+            orathletic sportswear will not be admitted).
           </Typography>
           {/* ---------------------------------------------------------------------------------------------------------------------- */}
           <Typography
@@ -674,7 +674,7 @@ const ShinkoReservation = () => {
               }
             }}
           >
-            • Please arrive on time to secure your reservation. SHINKŌ has a
+            • Please arrive on time to secure your reservation. KAZOKU has a
             30-minute table holding policy.
           </Typography>
           {/* ---------------------------------------------------------------------------------------------------------------------- */}
@@ -707,16 +707,16 @@ const ShinkoReservation = () => {
             contact us on{" "}
             <a
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="tel:0128 277 5177"
+              href="tel:0127 000 4877"
             >
-              0128 277 5177
+              0127 000 4877
             </a>{" "}
             or via email at{" "}
             <a
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="mailto:reservations@shinkocairo.com"
+              href="mailto:reservations@kazokuegypt.com"
             >
-              reservations@shinkocairo.com
+              reservations@kazokuegypt.com
             </a>
           </Typography>
         </Box>
@@ -748,7 +748,7 @@ const ShinkoReservation = () => {
           }
         }}
       >
-        WE LOOK FORWARD TO SEEING YOU!{" "}
+        ARIGATO!{" "}
       </Typography>
       {/* logo box */}
       <Stack
@@ -767,8 +767,8 @@ const ShinkoReservation = () => {
         {/* logo image */}
         <Box
           component="img"
-          src="https://i.ibb.co/fd78MFT/f3847d-150e2ea599f64bdfba33608ce44531ce-mv2.png"
-          alt="logo_Shinko"
+          src="https://i.ibb.co/Q64sWSQ/Transparent-Kazoku.png"
+          alt="logo_Kazouko"
           sx={{
             width: {
               xs: "55%",
@@ -784,4 +784,4 @@ const ShinkoReservation = () => {
   );
 };
 
-export default ShinkoReservation;
+export default KazoukoReservation;

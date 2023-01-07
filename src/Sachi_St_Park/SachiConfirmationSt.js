@@ -383,6 +383,18 @@ const SachiConfirmationSt = () => {
                   alt="instagram"
                 />
               </a>
+              <a href="#">
+                <img
+                  style={{
+                    width: "35px",
+                    height: "35px",
+                    borderRadius: "5px",
+                    marginRight: "0.5rem"
+                  }}
+                  src="https://i.ibb.co/2k7GJtV/owl.png"
+                  alt=""
+                />
+              </a>
             </Box>
 
             <Typography
