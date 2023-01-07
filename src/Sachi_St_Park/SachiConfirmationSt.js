@@ -2,18 +2,18 @@ import React from "react";
 import { Box, Grid, Stack, Typography } from "@mui/material";
 import Iframe from "react-iframe";
 
-const SachiConfirmationTemp = () => {
+const SachiConfirmationSt = () => {
   const styles = {
     paperContainer: {
       height: "100%",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right",
-      backgroundImage: `url(${"https://i.ibb.co/f2ZFrg8/Background.png"})`
+      backgroundImage: `url(${"https://i.ibb.co/VtN41Yt/Background.png"})`
     }
   };
 
-  let customerName = "Youssef",
+  let customerName = "Youssef Salah",
     numberOfGuests = 6,
     reservationTime = "7:00 pm on Friday, 3 January 2020";
 
@@ -50,7 +50,7 @@ const SachiConfirmationTemp = () => {
         {/* logo image */}
         <Box
           component="img"
-          src="https://i.ibb.co/9wRtRpz/Sachi-Heliopolis-Reservations-01.png"
+          src="https://i.ibb.co/HtrL8Jm/Untitled-2-01.png"
           alt="logo_sachi"
           sx={{
             width: {
@@ -139,7 +139,7 @@ const SachiConfirmationTemp = () => {
           }}
         >
           {" "}
-          Thank you for reservation at Sachi Heliopolis.
+          Thank you for reservation at Sachi Park St.
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
@@ -167,7 +167,7 @@ const SachiConfirmationTemp = () => {
             }
           }}
         >
-          This message is to re-confirm your reservation for {numberOfGuests} at{" "}
+          Kindly re-confirm your reservation for {numberOfGuests} at{" "}
           {reservationTime}.
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
@@ -196,13 +196,13 @@ const SachiConfirmationTemp = () => {
             }
           }}
         >
-          If you wish to make any special requests or changes to your
-          reservation, please contact us on{" "}
+          For any special requests or changes to your booking please contact us
+          on{" "}
           <a
             style={{ color: "#4f5cd6", textDecoration: "underline" }}
-            href="tel:0128 090 2028"
+            href="tel:0127 199 5701"
           >
-            0128 090 2028
+            0127 199 5701
           </a>{" "}
           or via email at{" "}
           <a
@@ -238,7 +238,8 @@ const SachiConfirmationTemp = () => {
             }
           }}
         >
-          We look forward to hosting you.
+          Looking forward to hosting you. We hope you enjoy your experience with
+          us!
         </Typography>
         {/* ---------------------------------------------------------------------------------------------------------------------- */}
         <Typography
@@ -328,7 +329,7 @@ const SachiConfirmationTemp = () => {
             xs={12}
             md={3}
             lg={3}
-            xl={3}
+            xl={4}
             sx={{
               padding: {
                 xs: "0rem 0rem 1rem 0rem",
@@ -354,11 +355,7 @@ const SachiConfirmationTemp = () => {
             </Typography>
             {/* Social Media Links */}
             <Box sx={{ padding: "1rem 0.7rem" }}>
-              <a
-                href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 <img
                   style={{
                     width: "35px",
@@ -400,13 +397,12 @@ const SachiConfirmationTemp = () => {
                 }
               }}
             >
-              3, Cleopatra St, El Korba, El-Montaza, Heliopolis, Cairo
-              Governorate
+              2, Park St., Sheikh Zayed - Giza Governorate
             </Typography>
             <Box
               component="a"
               target="_blank"
-              href="https://goo.gl/maps/gPe5c65GFtuXwY1V8"
+              href="https://goo.gl/maps/wQKsp886dYK2K3Uo6"
               sx={{
                 color: "#4f5cd6",
                 textDecoration: "underline"
@@ -416,9 +412,9 @@ const SachiConfirmationTemp = () => {
             </Box>
           </Grid>
           {/* ------#######--------######--------#######------######------ */}
-          <Grid item xs={12} md={9} lg={9} xl={9}>
+          <Grid item xs={12} md={9} lg={9} xl={8}>
             <Iframe
-              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.218974658328!2d31.32246836546453!3d30.087914423471855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e26a870f6b7%3A0xf0688ccb9bacc1ad!2sSACHI%20Heliopolis!5e0!3m2!1sen!2seg!4v1672714341838!5m2!1sen!2seg"
+              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.414501679537!2d31.00688113016251!3d30.024964068532736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585baf9aed5329%3A0xc8733f9d6c660cb2!2sSachi%20Park%20St!5e0!3m2!1sen!2seg!4v1672714580334!5m2!1sen!2seg"
               width="100%"
               height="350px"
               id=""
@@ -464,4 +460,4 @@ const SachiConfirmationTemp = () => {
   );
 };
 
-export default SachiConfirmationTemp;
+export default SachiConfirmationSt;

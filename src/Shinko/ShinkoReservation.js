@@ -1,19 +1,22 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
-const SachiReservationTemp = () => {
+const ShinkoReservation = () => {
   const styles = {
     paperContainer: {
       height: "100%",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right",
-      backgroundImage: `url(${"https://i.ibb.co/f2ZFrg8/Background.png"})`
+      backgroundImage: `url(${"https://i.ibb.co/p3BPr61/SHINKO-RESERVATION-LETTER-03-min.jpg"})`
     }
   };
 
-  let numberOfGuests = 6,
-    reservationTime = "Sunday, 26th January - 4:00PM - 6:00PM";
+  let customerName = "Youssef Salah",
+    numberOfGuests = 6,
+    // reservationTime = "Sunday, 26th January - 4:00PM - 6:00PM",
+    date = "Thursday, 06 May 2021",
+    time = "7:00 PM - 12:00 AM";
 
   return (
     <Stack
@@ -31,36 +34,6 @@ const SachiReservationTemp = () => {
         }
       }}
     >
-      {/* logo box */}
-      <Stack
-        justifyContent="center"
-        alignItems="center"
-        sx={{
-          paddingTop: {
-            xs: "3.4rem",
-            sm: "5.5rem",
-            md: "3.5rem",
-            lg: "5rem",
-            xl: "4rem"
-          }
-        }}
-      >
-        {/* logo image */}
-        <Box
-          component="img"
-          src="https://i.ibb.co/9wRtRpz/Sachi-Heliopolis-Reservations-01.png"
-          alt="logo_sachi"
-          sx={{
-            width: {
-              xs: "55%",
-              sm: "50%",
-              md: "45%",
-              lg: "40%",
-              xl: "30%"
-            }
-          }}
-        />
-      </Stack>
       {/* Banner box */}
       <Stack
         justifyContent="center"
@@ -78,11 +51,17 @@ const SachiReservationTemp = () => {
         {/* Banner image */}
         <Box
           component="img"
-          src="https://i.ibb.co/3f959Q0/Sachi-Heliopolis-Reservations-02.png"
-          alt="sachi_Almaza_Place"
+          src="https://i.ibb.co/vvdTKKM/IMG-9384-min.jpg"
+          alt="Shinko_Dining_Area"
           sx={{
-            width: "90%",
-            height: "90%"
+            width: "85%",
+            height: {
+              xs: "20vh",
+              sm: "30vh",
+              md: "50vh",
+              lg: "55vh",
+              xl: "60vh"
+            }
           }}
         />
       </Stack>
@@ -95,7 +74,7 @@ const SachiReservationTemp = () => {
             sm: "3rem",
             md: "2rem",
             lg: "2.8rem",
-            xl: "5rem"
+            xl: "3rem"
           },
           maxWidth: {
             xs: "100%",
@@ -110,11 +89,11 @@ const SachiReservationTemp = () => {
         <Box
           sx={{
             paddingTop: {
-              xs: "0.5rem",
-              sm: "3rem",
-              md: "2rem",
-              lg: "2.8rem",
-              xl: "4rem"
+              xs: "0rem",
+              sm: "0rem",
+              md: "1rem",
+              lg: "2rem",
+              xl: "2rem"
             }
           }}
         >
@@ -147,9 +126,9 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
@@ -176,14 +155,14 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
               >
-                John Smith
+                {customerName}
               </Typography>
             </Box>
           </Stack>
@@ -216,14 +195,14 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
               >
-                Date & time:
+                Date:
               </Typography>
             </Box>
             <Box flex={8}>
@@ -245,14 +224,14 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
               >
-                {reservationTime}
+                {date}
               </Typography>
             </Box>
           </Stack>
@@ -285,9 +264,78 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
+                    xl: "1.5rem"
+                  }
+                }}
+              >
+                Time:
+              </Typography>
+            </Box>
+            <Box flex={8}>
+              <Typography
+                sx={{
+                  lineHeight: {
+                    xs: "1.2",
+                    sm: "1.5",
+                    md: "1.4",
+                    lg: "1",
+                    xl: "1.2"
+                  },
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "1.2rem",
+                    md: "1.4rem",
+                    lg: "1.6rem",
+                    xl: "1.8rem"
+                  },
+                  paddingTop: {
+                    xs: "0rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
+                    xl: "1.5rem"
+                  }
+                }}
+              >
+                {time}
+              </Typography>
+            </Box>
+          </Stack>
+          {/* 0000000000000000000000000000000000000 */}
+          <Stack
+            direction="row"
+            gap={1}
+            sx={{
+              padding: {
+                xs: "0.3rem 0rem"
+              }
+            }}
+          >
+            <Box flex={4}>
+              <Typography
+                sx={{
+                  lineHeight: {
+                    xs: "1.2",
+                    sm: "1.5",
+                    md: "1.4",
+                    lg: "1",
+                    xl: "1.2"
+                  },
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "1.2rem",
+                    md: "1.4rem",
+                    lg: "1.6rem",
+                    xl: "1.8rem"
+                  },
+                  paddingTop: {
+                    xs: "0rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
@@ -314,9 +362,9 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
@@ -354,9 +402,9 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
@@ -383,18 +431,18 @@ const SachiReservationTemp = () => {
                   },
                   paddingTop: {
                     xs: "0rem",
-                    sm: "1.5rem",
-                    md: "2rem",
-                    lg: "2.2rem",
+                    sm: "1.2rem",
+                    md: "1.6rem",
+                    lg: "2rem",
                     xl: "1.5rem"
                   }
                 }}
               >
-                3, Cleopatra St., El Korba, Heliopolis, Cairo Governorate <br />
+                Swanlake Compound, 1st Settlement, New Cairo, Cairo Governorate{" "}
+                <br />
                 <Box
                   component="a"
-                  target="_blank"
-                  href="https://goo.gl/maps/y9uL5ov48XD2W6un9"
+                  href="https://www.google.com/maps/place/SHINK%C5%8C+Cairo/@30.0620393,31.4378461,17z/data=!3m1!4b1!4m5!3m4!1s0x14583d57ab387fc7:0xf209f87d4dabcd7f!8m2!3d30.0620393!4d31.4378461"
                   sx={{
                     color: "#4f5cd6",
                     textDecoration: "underline",
@@ -510,7 +558,7 @@ const SachiReservationTemp = () => {
             }}
           >
             {" "}
-            • Age restricition: 21+ after 7PM
+            • Age restriction: 23+
           </Typography>
           {/* ---------------------------------------------------------------------------------------------------------------------- */}
           <Typography
@@ -539,7 +587,7 @@ const SachiReservationTemp = () => {
             }}
           >
             {" "}
-            • Dress Code : Smart Casual (Shorts or flip-flops; uniforms or
+            • Dress Code: Smart Casual (Shorts or flip-flops; uniforms or
             athletic sportswear will not be admitted).
           </Typography>
           {/* ---------------------------------------------------------------------------------------------------------------------- */}
@@ -626,7 +674,7 @@ const SachiReservationTemp = () => {
               }
             }}
           >
-            • Please arrive on time to secure your reservation. SACHI has a
+            • Please arrive on time to secure your reservation. SHINKŌ has a
             30-minute table holding policy.
           </Typography>
           {/* ---------------------------------------------------------------------------------------------------------------------- */}
@@ -655,20 +703,20 @@ const SachiReservationTemp = () => {
               }
             }}
           >
-            • If you wish to make any special requests or changes to your
-            reservation, please contact us on{" "}
+            • If you wish to make any changes to your reservation, please
+            contact us on{" "}
             <a
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="tel:0128 090 2028"
+              href="tel:0128 277 5177"
             >
-              0128 090 2028
+              0128 277 5177
             </a>{" "}
             or via email at{" "}
             <a
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="mailto:reservations@sachirestaurant.com"
+              href="mailto:reservations@shinkocairo.com"
             >
-              reservations@sachirestaurant.com
+              reservations@shinkocairo.com
             </a>
           </Typography>
         </Box>
@@ -685,25 +733,55 @@ const SachiReservationTemp = () => {
             xl: "1.2"
           },
           fontSize: {
-            xs: "1.3rem",
+            xs: "1rem",
             sm: "1.5rem",
             md: "2rem",
             lg: "2.2rem",
             xl: "2.3rem"
           },
           paddingTop: {
-            xs: "1.2rem",
+            xs: "1.3rem",
             sm: "1.5rem",
             md: "2rem",
             lg: "2.2rem",
-            xl: "3rem"
+            xl: "2.5rem"
           }
         }}
       >
-        See you very soon!{" "}
+        WE LOOK FORWARD TO SEEING YOU!{" "}
       </Typography>
+      {/* logo box */}
+      <Stack
+        justifyContent="center"
+        alignItems="center"
+        sx={{
+          paddingTop: {
+            xs: "2.4rem",
+            sm: "3.5rem",
+            md: "3.5rem",
+            lg: "4rem",
+            xl: "4rem"
+          }
+        }}
+      >
+        {/* logo image */}
+        <Box
+          component="img"
+          src="https://i.ibb.co/fd78MFT/f3847d-150e2ea599f64bdfba33608ce44531ce-mv2.png"
+          alt="logo_sachi"
+          sx={{
+            width: {
+              xs: "55%",
+              sm: "50%",
+              md: "45%",
+              lg: "40%",
+              xl: "30%"
+            }
+          }}
+        />
+      </Stack>
     </Stack>
   );
 };
 
-export default SachiReservationTemp;
+export default ShinkoReservation;
