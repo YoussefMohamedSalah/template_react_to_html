@@ -1,5 +1,6 @@
 // import ConfirmationTemp from "./Confirmation/ConfirmationTemp";
 // import ReservationTemp from "./Reservation/ReservationTemp";
+
 // import SachiConfirmationSt from "./Sachi_St_Park/SachiConfirmationSt";
 // import SachiReservationSt from "./Sachi_St_Park/SachiReservationSt";
 
@@ -8,6 +9,9 @@
 
 // import ShinkoConfirmation from "./Shinko/ShinkoConfirmation";
 // import ShinkoReservation from "./Shinko/ShinkoReservation";
+
+import ReifReservation from "./Reif/ReifReservation";
+// import ReifConfirmation from "./Reif/ReifConfirmation";
 
 function App() {
   return (
@@ -20,6 +24,8 @@ function App() {
       {/* <ShinkoConfirmation /> */}
       {/* <KazoukoReservation /> */}
       {/* <KazoukoConfirmation /> */}
+      <ReifReservation />
+      {/* <ReifConfirmation /> */}
     </div>
   );
 }
