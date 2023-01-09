@@ -355,7 +355,7 @@ const SachiConfirmationHel = () => {
             {/* Social Media Links */}
             <Box sx={{ padding: "1rem 0.7rem" }}>
               <a
-                href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
+                href="https://www.facebook.com/sachirestaurantsegypt"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -371,7 +371,7 @@ const SachiConfirmationHel = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/shinkocairo/?hl=en"
+                href="https://www.instagram.com/explore/tags/sachiheliopolis/?hl=en"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -386,7 +386,7 @@ const SachiConfirmationHel = () => {
                   alt="instagram"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.tripadvisor.com/Restaurant_Review-g294201-d7681557-Reviews-Sachi_Heliopolis-Cairo_Cairo_Governorate.html">
                 <img
                   style={{
                     width: "35px",

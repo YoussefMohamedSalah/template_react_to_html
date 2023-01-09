@@ -280,7 +280,7 @@ const ReifConfirmation = () => {
 
           {/* Re-confirm button */}
           <a
-            href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
+            href="https://www.facebook.com/Reifkushiyakicairo/"
             target="_blank"
             rel="noreferrer"
           >
@@ -390,7 +390,7 @@ const ReifConfirmation = () => {
                   }}
                 >
                   <a
-                    href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
+                    href="https://www.facebook.com/Reifkushiyakicairo/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -410,7 +410,7 @@ const ReifConfirmation = () => {
                     />
                   </a>
                   <a
-                    href="https://www.instagram.com/shinkocairo/?hl=en"
+                    href="https://www.instagram.com/reifkushiyakicairo/?hl=en"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -434,7 +434,7 @@ const ReifConfirmation = () => {
               {/* ------#######--------######--------#######------######------ */}
               <Box>
                 <Iframe
-                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.218974658328!2d31.32246836546453!3d30.087914423471855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e26a870f6b7%3A0xf0688ccb9bacc1ad!2sSACHI%20Heliopolis!5e0!3m2!1sen!2seg!4v1672714341838!5m2!1sen!2seg"
+                  url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13819.779988068422!2d31.4027838!3d30.0097357!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0bb0eac65381139!2sReif%20Kushiyaki%20Cairo!5e0!3m2!1sen!2seg!4v1672714012044!5m2!1sen!2seg"
                   width="100%"
                   height="350px"
                   id=""
@@ -499,7 +499,7 @@ const ReifConfirmation = () => {
               target="_blank"
               rel="noreferrer"
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.218974658328!2d31.32246836546453!3d30.087914423471855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e26a870f6b7%3A0xf0688ccb9bacc1ad!2sSACHI%20Heliopolis!5e0!3m2!1sen!2seg!4v1672714341838!5m2!1sen!2seg"
+              href="https://www.google.com/maps/place/Reif+Kushiyaki+Cairo/@30.0097357,31.4027838,15z/data=!4m5!3m4!1s0x0:0xf0bb0eac65381139!8m2!3d30.0090063!4d31.4018097"
             >
               CLICK HERE TO VIEW MAP ONLINE
             </a>

@@ -442,6 +442,7 @@ const KazoukoReservation = () => {
                 <br />
                 <Box
                   component="a"
+                  target="_blank"
                   href="https://goo.gl/maps/zGUKKhEXmitpMg9N9"
                   sx={{
                     color: "#4f5cd6",

@@ -442,6 +442,7 @@ const ShinkoReservation = () => {
                 <br />
                 <Box
                   component="a"
+                  target="_blank"
                   href="https://www.google.com/maps/place/SHINK%C5%8C+Cairo/@30.0620393,31.4378461,17z/data=!3m1!4b1!4m5!3m4!1s0x14583d57ab387fc7:0xf209f87d4dabcd7f!8m2!3d30.0620393!4d31.4378461"
                   sx={{
                     color: "#4f5cd6",

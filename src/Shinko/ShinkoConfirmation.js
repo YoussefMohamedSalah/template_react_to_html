@@ -352,7 +352,11 @@ const ShinkoConfirmation = () => {
             </Typography>
             {/* Social Media Links */}
             <Box sx={{ padding: "1rem 0.7rem" }}>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.facebook.com/shinkocairo"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   style={{
                     width: "35px",
@@ -380,7 +384,7 @@ const ShinkoConfirmation = () => {
                   alt="instagram"
                 />
               </a>
-              <a href="https://www.tripadvisor.com/RSManagementCenter-d9729486-Kazoku">
+              <a href="https://www.tripadvisor.com/Restaurant_Review-g13074027-d13958860-Reviews-SHINKO-New_Cairo_City_Cairo_Governorate.html">
                 <img
                   style={{
                     width: "35px",

@@ -276,7 +276,7 @@ const SachiConfirmationSt = () => {
 
       {/* Re-confirm button */}
       <a
-        href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"
+        href="https://www.facebook.com/SachiParkSt"
         target="_blank"
         rel="noreferrer"
       >
@@ -355,7 +355,11 @@ const SachiConfirmationSt = () => {
             </Typography>
             {/* Social Media Links */}
             <Box sx={{ padding: "1rem 0.7rem" }}>
-              <a href="#" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.facebook.com/SachiParkSt"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   style={{
                     width: "35px",
@@ -368,7 +372,7 @@ const SachiConfirmationSt = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/shinkocairo/?hl=en"
+                href="https://www.instagram.com/explore/tags/sachiparkst/?hl=en"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -383,7 +387,7 @@ const SachiConfirmationSt = () => {
                   alt="instagram"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.tripadvisor.com/Restaurant_Review-g294201-d23414573-Reviews-Sachi_Park_St-Cairo_Cairo_Governorate.html">
                 <img
                   style={{
                     width: "35px",
