@@ -17,9 +17,12 @@ import ShinkoReservation from "./Shinko/ShinkoReservation";
 import ReifReservation from "./Reif/ReifReservation";
 import ReifConfirmation from "./Reif/ReifConfirmation";
 
+import LexiesConfirmation from "./Lexies/LexiesConfirmation";
+
 function App() {
   return (
     <div className="App">
+      <LexiesConfirmation />
       {/* <ReservationTemp /> */}
       {/* <ConfirmationTemp /> */}
       {/* <SachiConfirmationSt /> */}
