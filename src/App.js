@@ -22,19 +22,39 @@ import LexiesConfirmation from "./Lexies/LexiesConfirmation";
 function App() {
   return (
     <div className="App">
-      <LexiesConfirmation />
-      {/* <ReservationTemp /> */}
-      {/* <ConfirmationTemp /> */}
-      {/* <SachiConfirmationSt /> */}
-      {/* <SachiConfirmationHel /> */}
-      {/* <SachiReservationSt /> */}
-      {/* <SachiReservationHel /> */}
-      {/* <ShinkoReservation /> */}
-      {/* <ShinkoConfirmation /> */}
+      {/* <ReservationTemp />
+      <ConfirmationTemp /> */}
+      {/* 1 */}
       {/* <KazoukoReservation /> */}
+      {/* 2 */}
       {/* <KazoukoConfirmation /> */}
+      {/* 3 */}
+      {/* <LexiesConfirmation /> */}
+      {/* 4 */}
       {/* <ReifConfirmation /> */}
+
+
+      {/* not done yet */}
       {/* <ReifReservation /> */}
+
+
+
+      {/* 5 */}
+      {/* <SachiConfirmationSt /> */}
+      {/* 6 */}
+      {/* <SachiReservationHel /> */}
+      {/* 7 */}
+      {/* <SachiConfirmationHel /> */}
+      {/* 8 */}
+      {/* <SachiReservationSt /> */}
+
+
+
+      {/* 9 */}
+      {/* <ShinkoReservation /> */}
+
+      {/* 10 */}
+      {/* <ShinkoConfirmation /> */}
     </div>
   );
 }

@@ -286,7 +286,7 @@ const ConfirmationTemp = () => {
         >
           <Box
             component="img"
-            src="https://i.ibb.co/S359PQd/reconfirm-btn.png"
+            src="https://i.postimg.cc/RC2dgLRn/Untitled-2-03.png"
             alt="reconfirm_btn"
             sx={{
               alignSelf: "center",
@@ -366,7 +366,7 @@ const ConfirmationTemp = () => {
                     borderRadius: "5px",
                     marginRight: "0.5rem"
                   }}
-                  src="https://i.ibb.co/9tdjnt5/facebook.png"
+                  src="https://i.postimg.cc/MKcHtyGN/Untitled-2-05.png"
                   alt="facebook"
                 />
               </a>
@@ -382,7 +382,7 @@ const ConfirmationTemp = () => {
                     borderRadius: "5px",
                     marginRight: "0.5rem"
                   }}
-                  src="https://i.ibb.co/zSwqxzg/instagram.png"
+                  src="https://i.postimg.cc/qgfT16bH/Untitled-2-04.png"
                   alt="instagram"
                 />
               </a>
@@ -458,6 +458,34 @@ const ConfirmationTemp = () => {
           href="https://www.sachirestaurant.com/"
         >
           sachirestaurant.com
+        </a>
+      </Typography>
+      <Typography
+        sx={{
+          alignSelf: "start",
+          paddingTop: {
+            xs: "1.1rem",
+            sm: "1.5rem",
+            md: "2rem",
+            lg: "2.2rem",
+            xl: "3rem"
+          },
+          fontSize: {
+            xs: "1rem",
+            sm: "1.3rem",
+            md: "1.3rem",
+            lg: "1.2rem",
+            xl: "1.2rem"
+          }
+        }}
+      >
+        <a
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#4f5cd6", textDecoration: "underline" }}
+          href="mailto:Sabroso@anyware.software"
+        >
+          Powered by <i class="far fa-copyright"></i> Anyware software
         </a>
       </Typography>
     </Stack>

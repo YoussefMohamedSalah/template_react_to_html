@@ -781,6 +781,34 @@ const KazoukoReservation = () => {
           }}
         />
       </Stack>
+      <Typography
+        sx={{
+          alignSelf: "start",
+          paddingTop: {
+            xs: "1.1rem",
+            sm: "1.5rem",
+            md: "2rem",
+            lg: "2.2rem",
+            xl: "3rem"
+          },
+          fontSize: {
+            xs: "1rem",
+            sm: "1.3rem",
+            md: "1.3rem",
+            lg: "1.2rem",
+            xl: "1.2rem"
+          }
+        }}
+      >
+        <a
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#6e6565e3", textDecoration: "none" }}
+          href="https://www.anyware.software/"
+        >
+          Powered by <i class="far fa-copyright" /> Anyware software
+        </a>
+      </Typography>
     </Stack>
   );
 };

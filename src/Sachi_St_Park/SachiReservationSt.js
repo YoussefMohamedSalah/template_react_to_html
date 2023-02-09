@@ -8,7 +8,7 @@ const SachiReservationSt = () => {
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right",
-      backgroundImage: `url(${"https://i.ibb.co/VtN41Yt/Background.png"})`
+      backgroundImage: `url(${"https://i.postimg.cc/ZKpsrN4x/Background.png"})`
     }
   };
 
@@ -49,7 +49,7 @@ const SachiReservationSt = () => {
         {/* logo image */}
         <Box
           component="img"
-          src="https://i.ibb.co/HtrL8Jm/Untitled-2-01.png"
+          src="https://i.postimg.cc/wT4PxzqS/Untitled-2-01.png"
           alt="logo_sachi"
           sx={{
             width: {
@@ -79,7 +79,7 @@ const SachiReservationSt = () => {
         {/* Banner image */}
         <Box
           component="img"
-          src="https://i.ibb.co/rGYtrMq/Whats-App-Image-2021-05-27-at-12-02-48-PM.jpg"
+          src="https://i.postimg.cc/1zV8twkD/Untitled-2-02.png"
           alt="sachi_Almaza_Place"
           sx={{
             width: "90%",
@@ -702,6 +702,34 @@ const SachiReservationSt = () => {
         }}
       >
         See you very soon!{" "}
+      </Typography>
+      <Typography
+        sx={{
+          alignSelf: "start",
+          paddingTop: {
+            xs: "1.1rem",
+            sm: "1.5rem",
+            md: "2rem",
+            lg: "2.2rem",
+            xl: "3rem"
+          },
+          fontSize: {
+            xs: "1rem",
+            sm: "1.3rem",
+            md: "1.3rem",
+            lg: "1.2rem",
+            xl: "1.2rem"
+          }
+        }}
+      >
+        <a
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#6e6565e3", textDecoration: "none" }}
+          href="https://www.anyware.software/"
+        >
+          Powered by <i class="far fa-copyright" /> Anyware software
+        </a>
       </Typography>
     </Stack>
   );

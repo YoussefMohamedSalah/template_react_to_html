@@ -660,16 +660,16 @@ const ReifReservation = () => {
             reservation, please contact us on{" "}
             <a
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="tel:0128 090 2028"
+              href="tel:0128 044 6862"
             >
               0128 090 2028
             </a>{" "}
             or via email at{" "}
             <a
               style={{ color: "#4f5cd6", textDecoration: "underline" }}
-              href="mailto:reservations@sachirestaurant.com"
+              href="mailto:cairo@reifkushiyaki.com"
             >
-              reservations@sachirestaurant.com
+              cairo@reifkushiyaki.com
             </a>
           </Typography>
         </Box>
@@ -702,6 +702,34 @@ const ReifReservation = () => {
         }}
       >
         See you very soon!{" "}
+      </Typography>
+      <Typography
+        sx={{
+          alignSelf: "start",
+          paddingTop: {
+            xs: "1.1rem",
+            sm: "1.5rem",
+            md: "2rem",
+            lg: "2.2rem",
+            xl: "3rem"
+          },
+          fontSize: {
+            xs: "1rem",
+            sm: "1.3rem",
+            md: "1.3rem",
+            lg: "1.2rem",
+            xl: "1.2rem"
+          }
+        }}
+      >
+        <a
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#6e6565e3", textDecoration: "none" }}
+          href="https://www.anyware.software/"
+        >
+          Powered by <i class="far fa-copyright" /> Anyware software
+        </a>
       </Typography>
     </Stack>
   );
