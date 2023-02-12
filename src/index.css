@@ -1,5 +1,352 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* XL */
+@media screen and (min-width: 1536px) {
+  .paperContainer {
+    padding: 3.5rem;
+  }
+  .bannerBox {
+    padding-top: 4rem;
+  }
+
+  .diningAreaImage {
+    height: 50vh;
+  }
+  .InfoTextBox {
+    padding-top: 3rem;
+    max-width: 90%;
+  }
+  .bookingInfoSection {
+    padding-top: 2rem;
+  }
+  .booking-key-info-text {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  .booking-value-info-text {
+    line-height: 1.2;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+  .googleMapBox {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  .instructionsText {
+    padding-top: 2.5rem;
+  }
+  .plainTextPoints {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  .poweredByText {
+    align-self: flex-start;
+    font-size: 3rem;
+    padding-top: 1.2rem;
+  }
+  .arigato {
+    line-height: 1.2;
+    font-size: 2.3rem;
+    padding-top: 2.5rem;
+  }
+  .logoImageBox {
+    padding-top: 4rem;
+  }
+  .logoImage {
+    width: 20%;
+  }
+}
+
+/* LG */
+@media screen and (min-width: 1200px) {
+  .paperContainer {
+    padding: 2.8rem;
+  }
+  .bannerBox {
+    padding-top: 6rem;
+  }
+
+  .diningAreaImage {
+    height: 50vh;
+  }
+  .InfoTextBox {
+    padding-top: 2.8rem;
+    max-width: 92%;
+  }
+  .bookingInfoSection {
+    padding-top: 2rem;
+  }
+  .booking-key-info-text {
+    line-height: 1;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+  .booking-value-info-text {
+    line-height: 1;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+  .googleMapBox {
+    line-height: 1;
+    font-size: 1.6rem;
+    padding-top: 2.2rem;
+  }
+  .instructionsText {
+    padding-top: 2.2rem;
+  }
+  .plainTextPoints {
+    line-height: 1;
+    font-size: 1.6rem;
+    padding-top: 2.2rem;
+  }
+  .poweredByText {
+    align-self: flex-start;
+    font-size: 2.2rem;
+    padding-top: 1.2rem;
+  }
+  .arigato {
+    line-height: 1;
+    font-size: 2.2rem;
+    padding-top: 2.2rem;
+  }
+  .logoImageBox {
+    padding-top: 4rem;
+  }
+  .logoImage {
+    width: 20%;
+  }
+}
+
+/* MD */
+@media screen and (min-width: 900px) {
+  .paperContainer {
+    padding: 2rem;
+  }
+  .bannerBox {
+    padding-top: 3.5rem;
+  }
+  .diningAreaImage {
+    height: 40vh;
+  }
+  .InfoTextBox {
+    padding-top: 2rem;
+    max-width: 94%;
+  }
+  .bookingInfoSection {
+    padding-top: 1rem;
+  }
+  .booking-key-info-text {
+    line-height: 1.4;
+    font-size: 1.4rem;
+    padding-top: 1.6rem;
+  }
+  .booking-value-info-text {
+    line-height: 1.4;
+    font-size: 1.4rem;
+    padding-top: 1.6rem;
+  }
+  .googleMapBox {
+    line-height: 1.4;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+  }
+  .instructionsText {
+    padding-top: 2rem;
+  }
+  .plainTextPoints {
+    line-height: 1.4;
+    font-size: 1.4rem;
+    padding-top: 1.2rem;
+  }
+  .poweredByText {
+    align-self: flex-start;
+    font-size: 2rem;
+    padding-top: 1.3rem;
+  }
+  .arigato {
+    line-height: 1.4;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .logoImageBox {
+    padding-top: 3.5rem;
+  }
+  .logoImage {
+    width: 20%;
+  }
+}
+
+/* SM */
+@media screen and (min-width: 600px) {
+  .paperContainer {
+    padding: 1.5rem;
+  }
+  .bannerBox {
+    padding-top: 5.5rem;
+  }
+  .diningAreaImage {
+    height: 40vh;
+  }
+  .InfoTextBox {
+    padding-top: 3rem;
+    max-width: 98%;
+  }
+  .bookingInfoSection {
+    padding-top: 0rem;
+  }
+  .booking-key-info-text {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+  }
+  .booking-value-info-text {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+  }
+  .googleMapBox {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+  }
+  .instructionsText {
+    padding-top: 1.5rem;
+  }
+  .plainTextPoints {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
+  .poweredByText {
+    align-self: center;
+    font-size: 1.5rem;
+    padding-top: 1.3rem;
+  }
+  .arigato {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .logoImageBox {
+    padding-top: 3.5rem;
+  }
+  .logoImage {
+    width: 20%;
+  }
+}
+
+/* XS */
+@media screen and (min-width: 0px) {
+  .customerName-row {
+    padding: 0.2rem 0rem;
+  }
+  .paperContainer {
+    padding: 1.1rem;
+  }
+  .bannerBox {
+    padding-top: 1.4rem;
+  }
+  .diningAreaImage {
+    width: 96%;
+  }
+  .InfoTextBox {
+    padding-top: 3rem;
+    max-width: 100%;
+  }
+  .bookingInfoSection {
+    padding-top: 0rem;
+  }
+  .individualBookingDataRow {
+    padding: 0.3rem 0rem;
+  }
+  .booking-key-info-text {
+    line-height: 1.2;
+    font-size: 1.2rem;
+    padding-top: 0rem;
+  }
+  .booking-value-info-text {
+    line-height: 1.2;
+    font-size: 1rem;
+    padding-top: 0.4rem;
+  }
+  .googleMapBox {
+    line-height: 1.2;
+    font-size: 1rem;
+    padding-top: 0rem;
+  }
+  .instructionsText {
+    padding-top: 0.8rem;
+  }
+  .plainTextPoints {
+    line-height: 1.15;
+    font-size: 1rem;
+    padding-top: 0.6rem;
+  }
+  .poweredByText {
+    align-self: center;
+    font-size: 1.1rem;
+    /* padding-top: 1rem; */
+  }
+  .arigato {
+    line-height: 1.3;
+    font-size: 1rem;
+    padding-top: 0.3rem;
+  }
+  .logoImageBox {
+    padding-top: 2.4rem;
+  }
+  .logoImage {
+    width: 20%;
+  }
+}
+
+.paperContainer {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url("https://i.ibb.co/3FrHXVv/kazoku-confirmation-cropped.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoTextBox {
+  align-self: center;
+  padding: 0rem 0.5rem;
+}
+.individualBookingDataRow {
+  display: flex;
+  flex-direction: row;
+  gap: 1;
+}
+
+.booking-key-info {
+  flex: 4;
+}
+.booking-value-info {
+  flex: 8;
+}
+.logoImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arigato {
+  align-self: center;
 }

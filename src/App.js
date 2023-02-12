@@ -25,7 +25,7 @@ function App() {
       {/* <ReservationTemp />
       <ConfirmationTemp /> */}
       {/* 1 */}
-      {/* <KazoukoReservation /> */}
+      <KazoukoReservation />
       {/* 2 */}
       {/* <KazoukoConfirmation /> */}
       {/* 3 */}
