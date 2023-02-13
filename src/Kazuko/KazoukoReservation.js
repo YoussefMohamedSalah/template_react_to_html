@@ -9,7 +9,19 @@ const KazoukoReservation = () => {
     time = "7:00 PM - 12:00 AM";
 
   return (
-    <div className="paperContainer">
+    <div
+      className="paperContainer"
+      style={{ display: "flex", flexDirection: "column" }}
+    >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+        }}
+      >
+        <p>just text</p>
+      </div>
       <div className="bannerBox">
         <img
           className="diningAreaImage"
@@ -75,13 +87,14 @@ const KazoukoReservation = () => {
             </div>
           </div>
         </div>
+
         <div className="instructionsText">
           <p className="plainTextPoints">
             We kindly ask you to follow our House Rules:
           </p>
           <p className="plainTextPoints"> • Age restriction: 21+ after 6 PM</p>
           <p className="plainTextPoints">
-            • Dress Code: Smart Casual (Shorts or flip-flops; uniforms
+            • Dress Code: Smart Casual (Shorts or flip-flops, uniforms
             orathletic sportswear will not be admitted).
           </p>
           <p className="plainTextPoints">
@@ -117,14 +130,9 @@ const KazoukoReservation = () => {
       </div>
 
       <p className="arigato">ARIGATO! </p>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          // flexDirection: "column",
-        }}
-      >
+      <div className="logoImageWrraper">
         <img
+          style={{ alignSelf: "center" }}
           className="logoImage"
           src="https://i.ibb.co/Q64sWSQ/Transparent-Kazoku.png"
           alt="logo_Kazouko"
@@ -137,7 +145,13 @@ const KazoukoReservation = () => {
           style={{ color: "#6e6565e3", textDecoration: "none" }}
           href="https://www.anyware.software/"
         >
-          Powered by <i class="far fa-copyright" /> Anyware software
+          Powered by <i class="far fa-copyright" />
+          <span
+            style={{ textDecoration: "underline", color: "rgb(79, 92, 214)" }}
+          >
+            {" "}
+            Anyware software{" "}
+          </span>
         </a>
       </p>
     </div>
