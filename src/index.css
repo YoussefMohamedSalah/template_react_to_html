@@ -7,7 +7,7 @@ body {
 }
 
 /* XL */
-@media screen and (min-width: 1536px) {
+@media screen and (max-width: 1536px) {
   .paperContainer {
     padding: 3.5rem;
   }
@@ -17,7 +17,7 @@ body {
 
   .diningAreaImage {
     width: 96%;
-    height: 50vh;
+    height: 60vh;
   }
   .InfoTextBox {
     padding-top: 3rem;
@@ -59,9 +59,7 @@ body {
     font-size: 2.3rem;
     padding-top: 2.5rem;
   }
-  .logoImageBox {
-    padding-top: 4rem;
-  }
+ 
   .logoImage {
     width: 20%;
   }
@@ -123,9 +121,7 @@ body {
     font-size: 2.3rem;
     padding-top: 2.5rem;
   }
-  .logoImageBox {
-    padding-top: 4rem;
-  }
+
   .logoImage {
     width: 20%;
   }
@@ -185,9 +181,7 @@ body {
     font-size: 2rem;
     padding-top: 2rem;
   }
-  .logoImageBox {
-    padding-top: 3.5rem;
-  }
+
   .logoImage {
     width: 20%;
   }
@@ -247,9 +241,7 @@ body {
     font-size: 1.5rem;
     padding-top: 1.5rem;
   }
-  .logoImageBox {
-    padding-top: 3.5rem;
-  }
+
   .logoImage {
     width: 20%;
   }
@@ -316,9 +308,7 @@ body {
     font-size: 1rem;
     padding-top: 0.3rem;
   }
-  .logoImageBox {
-    padding-top: 2.4rem;
-  }
+
   .logoImage {
     width: 40%;
   }
