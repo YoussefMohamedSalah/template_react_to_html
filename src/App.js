@@ -25,7 +25,7 @@ function App() {
       {/* <ReservationTemp />
       <ConfirmationTemp /> */}
       {/* 1 */}
-      <KazoukoReservation />
+      {/* <KazoukoReservation /> */}
       {/* 2 */}
       {/* <KazoukoConfirmation /> */}
       {/* 3 */}
@@ -33,11 +33,8 @@ function App() {
       {/* 4 */}
       {/* <ReifConfirmation /> */}
 
-
       {/* not done yet */}
-      {/* <ReifReservation /> */}
-
-
+      <ReifReservation />
 
       {/* 5 */}
       {/* <SachiConfirmationSt /> */}
@@ -47,8 +44,6 @@ function App() {
       {/* <SachiConfirmationHel /> */}
       {/* 8 */}
       {/* <SachiReservationSt /> */}
-
-
 
       {/* 9 */}
       {/* <ShinkoReservation /> */}

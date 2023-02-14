@@ -6,6 +6,68 @@ body {
   flex-direction: column !important;
 }
 
+
+
+@media screen and (min-width: 1536px) {
+  .paperContainer {
+    padding: 3.5rem;
+  }
+  .bannerBox {
+    padding-top: 0rem;
+  }
+
+  .diningAreaImage {
+    width: 96%;
+    height: 60vh;
+  }
+  .InfoTextBox {
+    padding-top: 3rem;
+    max-width: 90%;
+  }
+  .bookingInfoSection {
+    padding-top: 1rem;
+  }
+  .booking-key-info-text {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  .booking-value-info-text {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  .googleMapBox {
+    line-height: 1.2;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  .instructionsText {
+    padding-top: 2.5rem;
+  }
+  .plainTextPoints {
+    line-height: 1.2;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+  }
+  .poweredByText {
+    justify-content: flex-start !important;
+    font-size: 1rem;
+    padding-top: 1.2rem;
+  }
+  .arigato {
+    line-height: 1.2;
+    font-size: 2.3rem;
+    padding-top: 2.5rem;
+  }
+ 
+  .logoImage {
+    width: 20%;
+  }
+  .individualBookingDataRow {
+    padding: 0.5rem 0rem;
+  }
+}
 /* XL */
 @media screen and (max-width: 1536px) {
   .paperContainer {
@@ -50,7 +112,7 @@ body {
     padding-top: 1.5rem;
   }
   .poweredByText {
-    align-self: flex-start !important;
+    justify-content: flex-start !important;
     font-size: 1rem;
     padding-top: 1.2rem;
   }
@@ -112,7 +174,7 @@ body {
     padding-top: 1.5rem;
   }
   .poweredByText {
-    align-self: flex-start !important;
+    justify-content: flex-start !important;
     font-size: 1rem;
     padding-top: 1.2rem;
   }
@@ -172,7 +234,7 @@ body {
     padding-top: 1.2rem;
   }
   .poweredByText {
-    align-self: flex-start !important;
+    justify-content: flex-start !important;
     font-size: 2rem;
     padding-top: 1.3rem;
   }
@@ -232,7 +294,7 @@ body {
     padding-top: 1rem;
   }
   .poweredByText {
-    align-self: center !important;
+    justify-content: center !important;
     font-size: 1.5rem;
     padding-top: 1.3rem;
   }
@@ -256,10 +318,10 @@ body {
     padding: 0.2rem 0rem;
   }
   .paperContainer {
-    padding: 1.1rem;
+    padding: 0.6rem;
   }
   .bannerBox {
-    padding-top: 1.4rem;
+    padding-top: 0.6rem;
   }
   .diningAreaImage {
     width: 96%;
@@ -299,9 +361,9 @@ body {
     padding-top: 0rem;
   }
   .poweredByText {
-    align-self: center !important;
+    justify-content: center !important;
     font-size: 0.7rem;
-    /* padding-top: 1rem; */
+    padding-top: 1rem;
   }
   .arigato {
     line-height: 1.3;
@@ -313,6 +375,7 @@ body {
     width: 40%;
   }
 }
+
 
 .paperContainer {
   height: 100%;
@@ -367,10 +430,18 @@ body {
 }
 .logoImageBox {
   display: flex !important;
+  flex-direction: column;
   justify-content: center !important;
   align-items: center !important;
 }
 
 .arigato {
   align-self: center !important;
+}
+
+#test{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
